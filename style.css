@@ -1,0 +1,224 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+  
+    
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+    /*FOR FUN*/
+    * {cursor: url(https://cur.cursors-4u.net/anime/ani-1/ani50.png), auto !important;}
+    
+    /*Hero Image*/
+    .hero-image { 
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/ramenheroimg.jpg");
+      /*img height*/
+      height: 95%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    /* Place text in the middle of the image */
+    .hero-text {
+      text-align: center;
+      position: absolute;
+     top: 25%;
+     left: 30%;
+      width:500px;
+      color: white;
+    }
+    h1{color:orange;
+       position: relative;
+      }
+    
+    /*nav bar start*/
+    .navbar {
+      background-color: orange;
+      padding-bottom: 20px;
+      text-align: right;
+      font-size: 30px;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+    }
+    
+    /*navigation buttons hover*/
+    nav a:hover {
+      color:orangered;
+    }
+    ul {
+      list-style-type: none;
+      margin-right:30px ;
+    }
+    .navbar ul li {
+      font-family: monospace;
+      display: inline;
+    }
+    
+    /*MENU PAGE*/
+    .menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 50px;
+      
+      
+    }
+    
+    .menu img {
+      width: 200px;
+      height: 200px;
+    }
+    
+    .menu .item {
+      border-radius: 10px;
+      margin: 10px;
+      padding: 20px 10px;
+      box-sizing: border-box;
+      background-color:bisque;
+    
+    
+    }
+    
+    .menu ul li {
+      list-style: none;
+      justify-content: center;
+      align-items: center;
+      padding: 4px 8px;
+      position: relative;
+      max-width: 400px;
+      min-width: 400px;
+      background: white
+    
+      
+      
+    }
+    
+    /*MENU  PAGE BACKGROUND*/
+    .menu-background {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/gangeatingramen.jpg_large"); 
+      position: -webkit-sticky;
+      top: 0; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    /*SPLIT FOR FOOTER */
+    
+    .footerlinks {
+      display: flex;
+      align-items:center;
+      justify-content: space-evenly;
+      background: orange;
+      
+    }
+    
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      
+    }
+    
+    .footer-contact{
+      display: flex;
+      align-items:center;
+      justify-content: space-evenly;
+      background: orange; 
+      position: absolute;
+      bottom: -60px;
+      left: 0px;
+      right: 0px;
+      
+    }
+    /*contact page*/
+    .contact-background{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/dbzgang.jpg");
+      height: 98%;
+      position: -webkit-sticky;
+      top: 0; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .contact-text{
+      text-align: center;
+      position: absolute;
+     top: 25%;
+     left: 30%;
+      width:500px;
+      color:black;
+    }
+  
+    /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc ; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: orangered;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:#ccc;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Responsive design for mobile */
+
+@media only screen and (max-width:480px){
+    width: 100%;
+  }
+    /*portrait view  */
+  
+    @media only screen and (max-width:767px) {
+      width: 100%;
+    }
+  /* landscape view */
+  
+  /* responsive design for tablet */
+  
+  @media only screen and (max-width:768px) {
+    width: 100%;
+  }
+  /* potrait view */
+  @media only screen and (max-width:979px) {
+    width: 100%;
+  }
+  /* landscape view */
+  
+  
