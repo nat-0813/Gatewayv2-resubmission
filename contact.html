@@ -41,15 +41,13 @@
   </div>
     </nav>
   
-
+<!-- I had to change the contact box the one I had before the code was more disorganized so I decided to use an outline from w3 schools to create the contact box -->
   <div class="contact-background">
     <div class="contact-text">
         <div class="container">
-  <form action="action_page.php"></form>
-
-    <label for="fname">First Name</label>
+  <form action="action_page.php"> <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-
+<!-- added a required attribute to both first and last name -->
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
@@ -63,7 +61,9 @@
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" id="submit" value="Submit"></form>
+<!-- added form action page when submitting the contact form -->
+   
     
   </div>
     </div>
@@ -73,6 +73,7 @@
   <!-- Add font awesome icons -->
 
   <footer class="footerlinks"></footer>
+  <!-- I had to add a separate div class for the footer on my contact page because there was also no styling code to tell it to do so -->
     <div class="footer-contact">
     <a href="https://www.instagram.com/" target="_blank">
       <img
@@ -89,7 +90,7 @@
       <img src="https://drjamestalkington.com/wp-content/uploads/2021/02/yelp-logo-png-round-8-copy.png" alt="Yelp Logo"
         style="width:35px;height:35px;">
     </a>
-
+<!-- twitter logo was not showing in each page because the image I used before was not working so had to use another image and tweek the website URL I had -->
     <a href="https://twitter.com/" target="_blank">
       <img src="/Images/twitterlogo.png" alt="Twitter Logo" style="width:35px;height:35px;">
     </a>
